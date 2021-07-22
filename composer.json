@@ -1,14 +1,7 @@
 {
-  "name": "Est/TodoApp",
+  "name": "vendor_name/php-projec",
   "description": "Todo app",
-  "authors": [
-    {
-      "name": "Can Ngo",
-      "email": "ngocongcan@gmail.com",
-      "homepage": "http://ngocongcan.github.io",
-      "role": "Software engineer"
-    }
-  ],
+  "authors": [],
   "require": {
     "php": ">=5.4.0"
   },

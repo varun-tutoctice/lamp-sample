@@ -66,6 +66,25 @@ class TaskController extends EstController
     }
 
 
+    public function createTable() {
+
+        $sql = "CREATE TABLE IF NOT EXISTS tasks (
+            id integer PRIMARY KEY,
+            status text NOT NULL,
+            name text,
+            start_date date,
+            end_date date
+        );
+        ";
+        $result = $this->dbService->query($sql);
+        if(!$result){
+          //  echo $this->lastErrorMsg();
+        } else {
+           // echo "Table created successfully\n";
+        }
+    }
+
+
     public function getAll() {
 
         $sql = "SELECT id, name, status, start_date, end_date, CASE

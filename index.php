@@ -3,7 +3,10 @@ use Est\TodoApp\Controller\TaskController;
 $loader = require __DIR__.'/vendor/autoload.php';
 
 $taskController = new TaskController();
+$tasks = $taskController->createTable();
 $tasks = $taskController->getAll();
+
+
 ?>
 <html>
 <head>
@@ -16,7 +19,7 @@ $tasks = $taskController->getAll();
 <body>
 
 <div class="container theme-showcase">
-    <h1>EST Todo App</h1>
+    <h3 class="mb-5">Task Creator</h3>
 
     <button type="button" class="btn btn-default btn-add-task">Add New</button>
     <a data-toggle="collapse" class="btn btn-primary" href="#tasks">Show/Hide Tasks</a>
@@ -257,4 +260,5 @@ $tasks = $taskController->getAll();
 
 </body>
 </html>
+
 
