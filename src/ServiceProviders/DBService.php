@@ -13,7 +13,7 @@ class DBService extends \SQLite3
 {
     function __construct($dbPath)
     {
-        //echo $dbPath;
+        //-echo $dbPath;
         $ret = $this->open($dbPath);
 
         // if(!$ret){

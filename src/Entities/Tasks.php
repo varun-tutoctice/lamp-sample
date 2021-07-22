@@ -59,7 +59,7 @@ class Tasks
         $this->name = $name;
     }
 
-    /**
+    /**0
      * @return mixed
      */
     public function getStatus()

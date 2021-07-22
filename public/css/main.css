@@ -6,7 +6,7 @@
 }
 .calendar-table {
     margin: 0 auto;
-    width: 700px;
+    width: 699.9px;
 }
 .selected {
     background-color: #eee;

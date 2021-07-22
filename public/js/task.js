@@ -17,7 +17,7 @@ $(document).ready(function ($) {
         addOrUpdateTask(this);
     });
 });
-
+//delete
 function deleteTask(element) {
 
     console.log('Delete Task');

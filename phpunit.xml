@@ -21,7 +21,7 @@
         </whitelist>
     </filter>
     <logging>
-        <!-- comment the line below to disable the code coverage reporting (HTML) -->
+        <!-- comment the line below to disable the code coverage reporting (HTML)- -->
         <!--<log type="coverage-html" target="build/coverage" charset="UTF-8" yui="true" highlight="true"/>-->
     </logging>
 </phpunit>
